@@ -1,10 +1,10 @@
 // Beesness — funciona offline depois do primeiro acesso.
 // Ao publicar uma nova versão do app, aumente o número abaixo.
-const CACHE = "beesness-v1";
+const CACHE = "beesness-v2";
 const ARQUIVOS = [
   "./", "./index.html", "./manifest.webmanifest",
-  "./icons/icon-192.png", "./icons/icon-512.png",
-  "./icons/apple-touch-icon-180.png", "./icons/favicon-32.png"
+  "./icon-192.png", "./icon-512.png",
+  "./apple-touch-icon-180.png", "./favicon-32.png"
 ];
 
 self.addEventListener("install", e => {
